@@ -33,13 +33,13 @@ TPI_Paises/
 │ └─ paises.csv
 └─ src/
 ├─ __init__.py
-├─ datos.py
-├─ validaciones.py
-├─ errors.py
-├─ busquedas.py
-├─ filtros.py
-├─ ordenamiento.py
-├─ estadisticas.py
+├─ datos.py # carga de CSV
+├─ validaciones.py # validación de columnas y tipos
+├─ errors.py # excepciones propias
+├─ busquedas.py # búsquedas por nombre
+├─ filtros.py # filtros (continente, rangos)
+├─ ordenamiento.py # ordenar por campo (asc/desc)
+├─ estadisticas.py # max/min, promedios, conteo por continente
 ├─ abm.py # altas y actualizaciones
 └─ menu.py # interfaz en consola
 ```
