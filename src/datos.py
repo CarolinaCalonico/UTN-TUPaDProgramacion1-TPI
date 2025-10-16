@@ -1,4 +1,4 @@
-from csv import DictReader
+from csv import DictReader, DictWriter
 from .validaciones import validar_columnas, to_int
 
 def cargar_paises(path_csv: str) -> list[dict]:
@@ -18,3 +18,16 @@ def cargar_paises(path_csv: str) -> list[dict]:
             return paises
     except FileNotFoundError as e:
         raise FileNotFoundError(f"No se encontró el archivo CSV en {path_csv}") from e
+
+def guardar_paises(path_csv: str, paises: list[dict]) -> None:
+    """Persiste la lista de países nuevamente en el CSV."""
+    with open(path_csv, 'w', newline='', encoding='utf-8') as f:
+        writer = DictWriter(f, fieldnames=["nombre", "poblacion", "superficie", "continente"])
+        writer.writeheader()
+        for p in paises:
+            writer.writerow({
+                "nombre": p["nombre"],
+                "poblacion": p["poblacion"],
+                "superficie": p["superficie"],
+                "continente": p["continente"]
+            })
