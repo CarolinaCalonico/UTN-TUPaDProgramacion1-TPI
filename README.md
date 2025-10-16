@@ -72,68 +72,69 @@ Video (10–15 min): agregar URL
 
 Se aceptan en estos formatos tanto países como continentes: américa/América/AMÉRICA, respetando los acentos.
 
-1) Agregar país
+### 1) Agregar país
 
-Entrada:
-
+**Entrada:**
+```
 1
 Uruguay
 3518550
 176215
 América
-
-Salida:
+```
+**Salida:**
 
 OK: país agregado.
 
-2) Actualizar población y superficie
+### 2) Actualizar población y superficie
 
-Entrada:
-
+**Entrada:**
+```
 2
 Argentina
 46000000
 2780400
-
-Salida:
+```
+**Salida:**
 
 OK: país actualizado.
 
-3) Búsqueda por nombre (parcial)
+### 3) Búsqueda por nombre (parcial)
 
-Entrada:
+**Entrada:**
 
 1
 arg
 
-Salida:
-
+**Salida:**
+```
 Argentina        | Pob:  45.376.763 | Sup:   2.780.400 km² | América
+```
 
-4) Filtro por continente
+### 4) Filtro por continente
 
-Entrada:
+**Entrada:**
 
 2
 Europa
 
-Salida:
-
+**Salida:**
+```
 Alemania        | Pob: 83.149.300 | Sup:    357.022 km² | Europa
 Francia         | Pob: 67.391.582 | Sup:    551.695 km² | Europa
 España          | Pob: 47.351.567 | Sup:    505.990 km² | Europa
 Italia          | Pob: 59.554.023 | Sup:    301.340 km² | Europa
 Rusia           | Pob: 144.104.080 | Sup: 17.098.242 km² | Europa
-
+```
 ### 5) Rango de población
 
 
 **Entrada:**
-
+```
 3
 Mínimo (ENTER para ninguno): 100000000
 Máximo (ENTER para ninguno): 500000000
-
+```
 **Salida:**
 
 ```
@@ -146,30 +147,30 @@ Nigeria         | Pob: 206.139.589 | Sup:    923.768 km² | África
 Egipto          | Pob: 102.334.404 | Sup:  1.002.450 km² | África
 ```
 
-6) Rango de superficie
+### 6) Rango de superficie
 
-Entrada:
-
+**Entrada:**
+```
 Mínimo (ENTER para ninguno): 3000000
 Máximo (ENTER para ninguno): 9000000
-
-Salida:
-
+```
+**Salida:**
+```
 OK: se encontraron 3 registros.
 Brasil          | Pob: 213.993.437 | Sup:  8.515.767 km² | América
 India           | Pob: 1.393.409.038 | Sup:  3.287.263 km² | Asia
 Australia       | Pob: 25.687.041 | Sup:  7.692.024 km² | Oceanía
+```
+### 7) Ordenamiento por superficie descendente
 
-7) Ordenamiento por superficie descendente
-
-Entrada:
-
+**Entrada:**
+```
 5
 superficie
 b
-
-Salida:
-
+```
+**Salida:**
+```
 Rusia           | Pob: 144.104.080 | Sup: 17.098.242 km² | Europa
 Canadá          | Pob: 38.005.238 | Sup:  9.984.670 km² | América
 Estados Unidos  | Pob: 331.002.651 | Sup:  9.833.517 km² | América
@@ -190,7 +191,7 @@ Japón           | Pob: 125.800.000 | Sup:    377.975 km² | Asia
 Alemania        | Pob: 83.149.300 | Sup:    357.022 km² | Europa
 Italia          | Pob: 59.554.023 | Sup:    301.340 km² | Europa
 Nueva Zelanda   | Pob:  5.084.300 | Sup:    268.021 km² | Oceanía
-
+```
 ## Participación de los integrantes
 
 Integrante 1: diseño de módulos, filtros y ordenamientos; armado de README; grabación de la primera mitad del video.
