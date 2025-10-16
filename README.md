@@ -125,16 +125,18 @@ España          | Pob: 47.351.567 | Sup:    505.990 km² | Europa
 Italia          | Pob: 59.554.023 | Sup:    301.340 km² | Europa
 Rusia           | Pob: 144.104.080 | Sup: 17.098.242 km² | Europa
 
-5) Rango de población
+### 5) Rango de población
 
-Entrada:
+
+**Entrada:**
 
 3
 Mínimo (ENTER para ninguno): 100000000
 Máximo (ENTER para ninguno): 500000000
 
-Salida: países con 100–500 millones de habitantes (listado).
+**Salida:**
 
+```
 Brasil          | Pob: 213.993.437 | Sup:  8.515.767 km² | América
 Estados Unidos  | Pob: 331.002.651 | Sup:  9.833.517 km² | América
 México          | Pob: 128.932.753 | Sup:  1.964.375 km² | América
@@ -142,6 +144,7 @@ Rusia           | Pob: 144.104.080 | Sup: 17.098.242 km² | Europa
 Japón           | Pob: 125.800.000 | Sup:    377.975 km² | Asia
 Nigeria         | Pob: 206.139.589 | Sup:    923.768 km² | África
 Egipto          | Pob: 102.334.404 | Sup:  1.002.450 km² | África
+```
 
 6) Rango de superficie
 
@@ -165,7 +168,7 @@ Entrada:
 superficie
 b
 
-Salida: listado ordenado por superficie (de mayor a menor).
+Salida:
 
 Rusia           | Pob: 144.104.080 | Sup: 17.098.242 km² | Europa
 Canadá          | Pob: 38.005.238 | Sup:  9.984.670 km² | América
