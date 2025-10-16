@@ -25,6 +25,7 @@ Aplicación de consola en **Python 3** que gestiona un dataset de países desde 
 - **Titular / Adjunta/o / Ayudante:** _Completar_
 
 ## Estructura del repositorio
+```
 TPI_Paises/
 ├─ main.py
 ├─ README.md
@@ -32,15 +33,16 @@ TPI_Paises/
 │ └─ paises.csv
 └─ src/
 ├─ __init__.py
-├─ datos.py # carga de CSV
-├─ validaciones.py # validación de columnas y tipos
-├─ errors.py # excepciones propias
-├─ busquedas.py # búsquedas por nombre
-├─ filtros.py # filtros (continente, rangos)
-├─ ordenamiento.py # ordenar por campo (asc/desc)
-├─ estadisticas.py # max/min, promedios, conteo por continente
+├─ datos.py
+├─ validaciones.py
+├─ errors.py
+├─ busquedas.py
+├─ filtros.py
+├─ ordenamiento.py
+├─ estadisticas.py
 ├─ abm.py # altas y actualizaciones
 └─ menu.py # interfaz en consola
+```
 
 ## Instrucciones de ejecución (VS Code)
 
