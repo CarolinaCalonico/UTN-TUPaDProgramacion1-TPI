@@ -18,11 +18,11 @@ Aplicación de consola en **Python 3** que gestiona un dataset de países desde 
 - **Trabajo:** Trabajo Práctico Integrador (TPI)
 
 ## Integrantes
-- **Integrante 1:** Carolina Calonico - 40.094.084 - carolinacalonico@hotmail.com 
-- **Integrante 2:** _Nombre Apellido — DNI — Email_
+- **Integrante 1:** Carolina Calonico
+- **Integrante 2:** Romina Vargas
 
 ## Docentes
-- **Titular / Adjunta/o / Ayudante:** _Completar_
+- **Titular:** Cinthia Rigoni / Ariel Enferrel
 
 ## Estructura del repositorio
 ```
