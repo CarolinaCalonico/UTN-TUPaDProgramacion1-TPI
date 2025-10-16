@@ -75,6 +75,7 @@ Se aceptan en estos formatos tanto países como continentes: américa/América/A
 1) Agregar país
 
 Entrada:
+
 1
 Uruguay
 3518550
@@ -82,17 +83,20 @@ Uruguay
 América
 
 Salida:
+
 OK: país agregado.
 
 2) Actualizar población y superficie
 
 Entrada:
+
 2
 Argentina
 46000000
 2780400
 
 Salida:
+
 OK: país actualizado.
 
 3) Búsqueda por nombre (parcial)
@@ -102,7 +106,7 @@ Entrada:
 1
 arg
 
-Salida esperada:
+Salida:
 
 Argentina        | Pob:  45.376.763 | Sup:   2.780.400 km² | América
 
@@ -112,7 +116,6 @@ Entrada:
 
 2
 Europa
-
 
 Salida:
 
@@ -129,7 +132,6 @@ Entrada:
 3
 Mínimo (ENTER para ninguno): 100000000
 Máximo (ENTER para ninguno): 500000000
-
 
 Salida: países con 100–500 millones de habitantes (listado).
 
@@ -161,7 +163,7 @@ Entrada:
 
 5
 superficie
-s3
+b
 
 Salida: listado ordenado por superficie (de mayor a menor).
 
