@@ -31,7 +31,7 @@ TPI_Paises/
 ├─ data/
 │ └─ paises.csv
 └─ src/
-├─ init.py
+├─ __init__.py
 ├─ datos.py # carga de CSV
 ├─ validaciones.py # validación de columnas y tipos
 ├─ errors.py # excepciones propias
