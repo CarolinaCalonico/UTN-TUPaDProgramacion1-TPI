@@ -83,9 +83,9 @@ Uruguay
 América
 ```
 **Salida:**
-
+```
 OK: país agregado.
-
+```
 ### 2) Actualizar población y superficie
 
 **Entrada:**
@@ -96,16 +96,16 @@ Argentina
 2780400
 ```
 **Salida:**
-
+```
 OK: país actualizado.
-
+```
 ### 3) Búsqueda por nombre (parcial)
 
 **Entrada:**
-
+```
 1
 arg
-
+```
 **Salida:**
 ```
 Argentina        | Pob:  45.376.763 | Sup:   2.780.400 km² | América
@@ -114,10 +114,10 @@ Argentina        | Pob:  45.376.763 | Sup:   2.780.400 km² | América
 ### 4) Filtro por continente
 
 **Entrada:**
-
+```
 2
 Europa
-
+```
 **Salida:**
 ```
 Alemania        | Pob: 83.149.300 | Sup:    357.022 km² | Europa
