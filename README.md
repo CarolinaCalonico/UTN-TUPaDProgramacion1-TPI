@@ -64,9 +64,7 @@ No se utilizan librerías de terceros. Solo biblioteca estándar de Python (csv,
 
 ## Links
 
-Repositorio GitHub: agregar URL
-
-Video (10–15 min): agregar URL
+Video (10–15 min): https://www.youtube.com/watch?v=5nlDzw2iOro
 
 ## Ejemplos de entrada y salida
 
