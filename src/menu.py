@@ -81,9 +81,14 @@ def menu_loop(paises: list[dict]) -> None:
                 guardar_paises(CSV_PATH, paises)
 
             elif op == '3':
-                # Búsqueda por coincidencia parcial/total (case-insensitive)
-                t = input("Nombre o parte: ")
-                _imprimir_lista(buscar_por_nombre(paises, t))
+                t = input("Nombre o parte: ").strip()
+                if not t:
+                    print("Error: el término de búsqueda no puede estar vacío.")
+                elif any(ch.isdigit() for ch in t):
+                    print("Error: debe introducir un nombre; no se permiten números.")
+                else:
+                    _imprimir_lista(buscar_por_nombre(paises, t))
+
 
             elif op == '4':
                 # Filtro por continente (se valida contra el conjunto permitido)
