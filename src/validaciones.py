@@ -46,10 +46,14 @@ def validar_no_vacio(texto: str, nombre_campo: str) -> str:
     return t
 
 def validar_entero_positivo(valor: str, nombre_campo: str) -> int:
-    """
-    Convierte a int y exige que sea > 0. Si no, levanta ValueError con mensaje claro.
-    """
-    v = int(valor)  # deja que ValueError “explique” si no es convertible
+    t = (valor or "").strip()
+    if not t:
+        # ENTER / vacío
+        raise ValueError(f"El campo '{nombre_campo}' no puede estar vacío.")
+    if not t.isdecimal():
+        # letras, símbolos, espacios, signos, etc.
+        raise ValueError(f"El campo '{nombre_campo}' debe ser un entero.")
+    v = int(t)
     if v <= 0:
         raise ValueError(f"El campo '{nombre_campo}' debe ser un entero positivo.")
     return v
